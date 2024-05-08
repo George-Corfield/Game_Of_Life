@@ -41,7 +41,7 @@ When running the any implementation these flags may be specified and changed:
 2. **Distributed Implementation on localhost:**
    - Navigate to the [Distributed Implementation](./Distributed) or the [Distributed Extenstion](./Distributed-Extension).
    - open 6 terminal windown. On each of the first 4 run the corresponding line:
-```
+```go
 go run Server/server.go --port=8050
 go run Server/server.go --port=8051
 go run Server/server.go --port=8053
@@ -64,7 +64,7 @@ source ~/.bashrc
 ```
    - On each clone the github repository and navigate to the required repository
    - On 4 of the instances run:
-```
+```go
 go run Server/server.go --port=8050
 go run Server/server.go --port=8051
 go run Server/server.go --port=8053
